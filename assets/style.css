@@ -1,0 +1,46 @@
+.logo {
+  font-family: manteiga-gorda, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding: 10px;
+}
+.header1 {
+  font-family: Helvetica, manteiga-gorda, sans-serif;
+  font-size: smaller;
+  padding: 10px;
+}
+
+#LogoNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+#contact {
+  size: 10px;
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+#userDetail {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
