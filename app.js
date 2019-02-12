@@ -2,9 +2,8 @@ const express = require('express');
 const app = express();
 const morgan = require('morgan');
 
-// const { homePage } = require('./seedSync')
-const { Page, Content } = require('./db');
-// console.log(db.Page)
+const { Content } = require('./db');
+
 
 app.use(morgan('dev'));
 
